@@ -1,0 +1,31 @@
+.courseContainer{
+    display:flex;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    
+}
+h2, p, button {
+    /* padding-left: 10px; */
+    margin: 1px 24px;
+}
+.course_frist_part img{
+    width: 300px;
+    margin-top: 20px;
+    
+}
+.course_secound_part button{
+    width: 150px;
+    height: 40px;
+    background-color: #5720c2;
+    color: #e5e0e0;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    transition: .4s;
+}
+.course_secound_part button:hover{
+    color:white;
+    background-color: dodgerblue;
+    cursor: pointer;
+}

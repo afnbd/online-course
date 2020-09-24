@@ -1,0 +1,27 @@
+
+.headerPart{
+    text-align: center;
+}
+.headerPart img{
+    height:70px;
+    width:200px;
+}
+.headerPart nav{
+    background-color:#06b1f7;
+    line-height: 55px;
+}
+.headerPart nav a{
+    color: #ffffffb5;
+    margin-right: 30px;
+    padding:9px 1px;
+    text-decoration: none;
+    transition: .5s;
+    font-size: 27px;
+
+}
+.headerPart nav a:hover{
+    color:white;
+    background-color: cyan;
+    
+   
+}
