@@ -15,7 +15,7 @@ const CourseDetails = (props) => {
           <div className="course_secound_part">
                 <h2>{course_name}</h2>
                 <p>{course_discribtion}</p>
-                <h2>{price}</h2>
+                <h2>$ {price}</h2>
                 <button onClick={()=>props.handleEnrollNow(props.course)}><FontAwesomeIcon icon={faShoppingCart} /> Enroll Now</button>
           </div>
             

@@ -1,14 +1,22 @@
 
 .headerPart{
     text-align: center;
+
+  
 }
 .headerPart img{
     height:70px;
     width:200px;
+    
 }
 .headerPart nav{
     background-color:#06b1f7;
     line-height: 55px;
+    
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+ 
 }
 .headerPart nav a{
     color: #ffffffb5;

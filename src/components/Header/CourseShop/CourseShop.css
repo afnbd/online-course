@@ -1,15 +1,19 @@
 .Courseshop-container{
     display:flex;
+  
 
 }
 .course-container{
+   
     width: 70%;
     border-right: 2px solid white;
-    margin-left: 100px;
-    margin-right:5px;
     padding: 10px 15px;
     background-color: #a89de5;
 }
 .course-cart-container{
     width:30%;
+}
+.course-cart-container{
+    background-color: indigo;
+    
 }
