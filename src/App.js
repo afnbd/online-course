@@ -11,7 +11,7 @@ function App() {
     <div>
        <Header></Header>
        <CourseShop></CourseShop>
-    </div>
+    </div>   
   );
 }
 
